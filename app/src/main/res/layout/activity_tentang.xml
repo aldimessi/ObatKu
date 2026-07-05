@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObatKu"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/blue_primary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versi 1.0"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Aplikasi ObatKu merupakan aplikasi pengingat minum obat yang bekerja secara offline. Aplikasi ini membantu pengguna mengatur jadwal minum obat serta memberikan notifikasi, suara, dan getaran ketika waktu minum obat tiba."
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembuat:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtPembuat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelompok 1\nMycle Andrianto (240416005)\nAldi Messi (240416002)\nRizki Ramadhan (240416046)"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtUniversitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Sari Mutiara"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="© 2026 Kelompok 1 - USM"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/gray"/>
+
+    </LinearLayout>
+
+</ScrollView>
