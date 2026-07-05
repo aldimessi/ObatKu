@@ -8,11 +8,12 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:src="@mipmap/ic_launcher"
+        android:scaleType="centerInside"
         android:contentDescription="Logo"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="24dp"/>
 
     <TextView
         android:id="@+id/txtNama"
@@ -21,19 +22,20 @@
         android:text="ObatKu"
         android:textStyle="bold"
         android:textColor="@color/blue_primary"
-        android:textSize="30sp"/>
+        android:textSize="28sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pengingat Minum Obat"
         android:textColor="@color/gray"
-        android:textSize="16sp"
-        android:layout_marginTop="5dp"/>
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
 
     <ProgressBar
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="40dp"/>
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="48dp"
+        style="?android:attr/progressBarStyleSmall"/>
 
 </LinearLayout>
